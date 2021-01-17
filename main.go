@@ -6,7 +6,7 @@ func main() {
 	n := 1
 	ans, ok := fibonacci(n)
 	if !ok {
-		fmt.Printf("small number : %v", n)
+		fmt.Printf("small number  : %v", n)
 	} else {
 		fmt.Printf("n is %v ans is %v\n", n, ans)
 	}
